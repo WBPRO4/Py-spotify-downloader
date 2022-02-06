@@ -8,9 +8,9 @@ x = 0
 songs = []
 user_data=[]
 token = ""
-Client_id = "86ff07cb4d14467eb1558bb90cfc8dfd"
+Client_id = ""
 Redirect_uri = "http://127.0.0.1/"
-Client_secret = "f7bc86a944984a13bf9402cece9f61b8"
+Client_secret = ""
 enable_debug = False
 cls = lambda: os.system("cls")
 kill_nginx = lambda: os.system("taskkill /im nginx.exe /f")
@@ -102,9 +102,8 @@ if anwser.lower() == "y":
                 s.results[0].streams.filter(only_audio=True)[y].download()
             else:
                 ...
-    logging.info(f"Downloaded len(songs) from youtube Sucessfully!")
-    logging.info(f"Also fuck your family this was very fucking hard to make")
-    logging.info("Press enter to exit you fucker!")
+    logging.info(f"Downloaded {len(songs)} from youtube Sucessfully!")
+    logging.info("Press enter to exit!")
     input()
     kill_nginx()
     exit(1)
