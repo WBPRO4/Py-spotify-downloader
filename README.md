@@ -19,7 +19,6 @@ USE INSTRUCTIONS:
     
     3. run py main.py
 
-    -------------------------------------------------------------------------------------------------
    | FAQ:                                                                                            |
    | ------------------------------------------------------------------------------------------------|
    | Q: But I don't want to run nginx i dont want hunt nginx in task manager later to end the process|
@@ -30,4 +29,3 @@ USE INSTRUCTIONS:
    | A: Sadly no some these libraries were pretty broken and have patches done by me in them         |
    |    most of them have these exact patches in pull request by other people who were faster        |
    |    than me with making pull request but it seems none of them are in stable releases :(         |
-    -------------------------------------------------------------------------------------------------
